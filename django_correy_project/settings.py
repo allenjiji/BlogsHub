@@ -23,9 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'rvtd%_jt@44wlk@(-cj+65#e^wd=_cr&zbdww7fct7+%d#g*pt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'blogshub.herokuapp.com'
+]
 
 
 # Application definition
